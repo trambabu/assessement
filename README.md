@@ -5,10 +5,13 @@ Jerseytest : This module is a Restful application. Restful service has been deve
 Webapptest : This module is a webapplication invoking as a client of Restful service using spring resttemplate library.
 
 Jerseytest application Environment:
-Java 1.8_144,tomcat 8.5.40,jersey 2.2.7 library, H2b 1.4.197 as a memory based database, Hibernate 5.2.6.Final for persistance, JPA 2.1. optional mysql 6.0.5 driver also included and the configurations are commented out for mysal in persistence.xml
+Java 1.8_144,tomcat 8.5.40,jersey 2.2.7 library, H2b 1.4.197 as a memory based database, Hibernate 5.2.6.Final for persistance, JPA 2.1, maven 3.0. optional mysql 6.0.5 driver also included and the configurations are commented out for mysal in persistence.xml
+
+postman webservice client application can be used to test the functionalites. which available free download as it is not any more plugin with google chorme. base URL is as mentioned below
+http://localhost:8080/jerseytest/webapi/userservice 
 
 Webapptest application Environment:
-Java 1.8_144,tomcat 8.5.40, spring 4.2.4.RELEASE,httpclient 4.5.5,jstl 1.2 are main supporting libraries.
+Java 1.8_144,tomcat 8.5.40, spring 4.2.4.RELEASE,httpclient 4.5.5,jstl 1.2 are main supporting libraries.Maven build has been used.
 There was a app authentication used for retrive allUsers functionality from the DB as a demo purpose how to use from the headers.
 few JSP pages also used in the application to create,display,update,delete,retrieve usermanagement functionality. These JSP files has been used JSTL scripting including HTML.
 
